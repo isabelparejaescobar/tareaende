@@ -138,6 +138,15 @@ public class Bag {
 	public void setUsuario(String usuario) {
 		this.usuario = usuario;
 	}
+	
+	public void realizarModificacion() {
+	    try {
+	        System.out.println("Modificación 1");
+	        ActualizarBono(-50);
+	    } catch (Exception e) {
+	        System.out.print("Fallo…….");
+	    }
+	}
 
 }
 
